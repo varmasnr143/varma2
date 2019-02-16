@@ -1,0 +1,40 @@
+header{
+  background-color: skyblue;
+  color: black;
+  font-size: 30px;
+  padding: 2%;
+  text-align:center;
+  margin: 1%;
+  border: 2px solid black;
+  box-shadow: 3px 3px 3px black;
+}
+
+#career{
+  width: 95%;
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+}
+section{
+  border: 2px solid #ddd;
+  padding: 1%;
+  margin: 1%;
+  width: 95%;
+  background-color: skyblue;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.parent section{
+  width: 45%;
+  background-color: skyblue;
+}
+input,
+select{
+  display: block;
+  margin: .3% auto;
+  width: 90%;
+}
